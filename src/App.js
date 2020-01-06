@@ -1,25 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { WiredButton, WiredInput } from "wired-elements"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <section>
+      <header>
+        <h2>WiredJS Boilerplate</h2>
       </header>
-    </div>
+      <wired-input placeholder="Enter name"></wired-input>
+      <wired-button>Click Me</wired-button>
+    </section>
   );
 }
 

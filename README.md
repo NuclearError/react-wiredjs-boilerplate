@@ -3,6 +3,12 @@ Boilerplate using React with WiredJS
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+The boilerplate uses:
+
+* [https://github.com/wiredjs/wired-elements](wired-elements from wiredjs)
+* React Hooks
+* Jest/Enzyme
+
 ---------------------
 
 ## Available Scripts

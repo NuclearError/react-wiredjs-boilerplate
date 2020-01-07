@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import 'elix/src/Input.js';
+import React, {useEffect, useState } from 'react';
 
 //////////////////////////////////////////////////
 // abstract this somewhere else
@@ -20,10 +19,8 @@ function TodoForm({ addTodo }) {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <elix-input
-        type="text"
-        className="input"
+    <form onSubmit={e => handleSubmit(e)}>
+      <input
         value={value}
         onChange={e => setValue(e.target.value)}
       />
@@ -50,7 +47,7 @@ function App() {
   return (
     <section>
       <header>
-        <h2>React with Elix Boilerplate</h2>
+        <h2>React ToDo List with Hooks</h2>
       </header>
       <div>
         {todos.map((todo, index) => (

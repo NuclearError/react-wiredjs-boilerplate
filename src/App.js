@@ -1,9 +1,13 @@
 import React, { useState } from 'react';
-import { WiredButton, WiredCard, WiredInput } from "wired-elements";
+import 'elix/src/Input.js';
 
-// import TodoForm from './TodoForm';
+//////////////////////////////////////////////////
+// abstract this somewhere else
 
-const Todo = ({ todo }) => <wired-card className="todo">{todo.text}</wired-card>;
+const Todo = ({ todo }) => <div className="todo">{todo.text}</div>;
+
+//////////////////////////////////////////////////
+// abstract this somewhere else
 
 function TodoForm({ addTodo }) {
   const [value, setValue] = useState("");
@@ -17,7 +21,7 @@ function TodoForm({ addTodo }) {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input
+      <elix-input
         type="text"
         className="input"
         value={value}
@@ -26,6 +30,8 @@ function TodoForm({ addTodo }) {
     </form>
   );
 }
+
+//////////////////////////////////////////////////
 
 function App() {
 
@@ -44,7 +50,7 @@ function App() {
   return (
     <section>
       <header>
-        <h2>WiredJS Boilerplate</h2>
+        <h2>React with Elix Boilerplate</h2>
       </header>
       <div>
         {todos.map((todo, index) => (

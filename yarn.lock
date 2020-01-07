@@ -3622,6 +3622,11 @@ electron-to-chromium@^1.3.317:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.322.tgz#a6f7e1c79025c2b05838e8e344f6e89eb83213a8"
   integrity sha512-Tc8JQEfGQ1MzfSzI/bTlSr7btJv/FFO7Yh6tanqVmIWOuNCu6/D1MilIEgLtmWqIrsv+o4IjpLAhgMBr/ncNAA==
 
+elix@^9.0.2:
+  version "9.0.2"
+  resolved "https://registry.yarnpkg.com/elix/-/elix-9.0.2.tgz#74459d282bd2f890993a24252b30aa3595396178"
+  integrity sha512-WypJfRJ+GqnAfZDS3hlAf7+9v1BgAR1azNWK5lxqgMTTnmYJ/v0RMpfqCb8ZfX7OLIEGBa5YrS5aDPilPAKNNQ==
+
 elliptic@^6.0.0:
   version "6.5.2"
   resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.5.2.tgz#05c5678d7173c049d8ca433552224a495d0e3762"
@@ -6280,18 +6285,6 @@ lines-and-columns@^1.1.6:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
   integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
-
-lit-element@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/lit-element/-/lit-element-2.2.1.tgz#79c94d8cfdc2d73b245656e37991bd1e4811d96f"
-  integrity sha512-ipDcgQ1EpW6Va2Z6dWm79jYdimVepO5GL0eYkZrFvdr0OD/1N260Q9DH+K5HXHFrRoC7dOg+ZpED2XE0TgGdXw==
-  dependencies:
-    lit-html "^1.0.0"
-
-lit-html@^1.0.0:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/lit-html/-/lit-html-1.1.2.tgz#2e3560a7075210243649c888ad738eaf0daa8374"
-  integrity sha512-FFlUMKHKi+qG1x1iHNZ1hrtc/zHmfYTyrSvs3/wBTvaNtpZjOZGWzU7efGYVpgp6KvWeKF6ql9/KsCq6Z/mEDA==
 
 load-json-file@^2.0.0:
   version "2.0.0"
@@ -9153,13 +9146,6 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
-roughjs@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/roughjs/-/roughjs-3.1.0.tgz#d011b9239fd1790e487bbfa204c98f1c786966ac"
-  integrity sha512-WJIKyWxBlEIuMeK0foUZD1KVYzT6Dn62ksawZrlu3BzxUxgtPdnlCMDgX/C3N5gxj/AMRazstKOFm70tqTo5Bw==
-  dependencies:
-    workly "^1.2.0"
-
 rst-selector-parser@^2.2.3:
   version "2.2.3"
   resolved "https://registry.yarnpkg.com/rst-selector-parser/-/rst-selector-parser-2.2.3.tgz#81b230ea2fcc6066c89e3472de794285d9b03d91"
@@ -10680,226 +10666,6 @@ wide-align@^1.1.0:
   dependencies:
     string-width "^1.0.2 || 2"
 
-wired-button@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/wired-button/-/wired-button-2.0.0.tgz#6cb6640989aa0b003ebbbb552c6316b63ac3d68c"
-  integrity sha512-uIa0yXB6bzGTR1yvkOk4bh1YO2JCNKUIQqESV/KCoOF/c6vhLCLyJYzNz1/li8G1S6LDjNx7Hptd2ZDwYsRMbw==
-  dependencies:
-    wired-lib "^2.0.0"
-
-wired-calendar@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/wired-calendar/-/wired-calendar-2.0.0.tgz#d3794ca147bd7b67a7f6e81da8717dca179acc6c"
-  integrity sha512-4+ROHviTGIDBNOYo6lqYzsBwzXkY7F+HWMAnMavB0YSUXP3GeD4o3DowMYVr2k+b0EL5QNZ09Ht1n+6mwnCn5g==
-  dependencies:
-    wired-lib "^2.0.0"
-
-wired-card@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/wired-card/-/wired-card-2.0.0.tgz#181c23a2b1dfd71de3909361ba9884c007efebf7"
-  integrity sha512-76X8cDja7xAfk5foqDbibmx8F0VVxKraJoL+Dzmo5zwb0jzF6tO+0gBBTtndmvYllyXbOOcfriuxtgZmZphWQw==
-  dependencies:
-    wired-lib "^2.0.0"
-
-wired-checkbox@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/wired-checkbox/-/wired-checkbox-2.0.0.tgz#baf3d3ea3d9b47eeb3e27437421a2244a8f40ee5"
-  integrity sha512-xm+g1BEKGXefJbyq4JqD5rpUUt3mBRyHsFIRsISuVsOAao2xCCguewsNntJea7O1IH7Ev8mTcObq6DqIRNGifA==
-  dependencies:
-    wired-lib "^2.0.0"
-
-wired-combo@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/wired-combo/-/wired-combo-2.0.0.tgz#2052db0abb42a9ca180af8c4d38421dcf0ddf443"
-  integrity sha512-dYp7iEk3sNe/tA8fFHtj0u8J5KVrp/aHXalRcw2AW0cyriC3wS0HIspyvCE7NMZELzIVAMUIPh6DC9nAAioLww==
-  dependencies:
-    wired-card "^2.0.0"
-    wired-lib "^2.0.0"
-
-wired-dialog@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/wired-dialog/-/wired-dialog-2.0.0.tgz#82f656e366be229c84bd31f01fb5a90fbb4921fd"
-  integrity sha512-sLzyKE8fDYwSksI5BaHGCxc72lc2ueehBqR9LsFLK7Zur+tT141CGk0d8kuF73ATDoVMEsghFLVnWnqXzx6otg==
-  dependencies:
-    wired-card "^2.0.0"
-
-wired-divider@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/wired-divider/-/wired-divider-2.0.0.tgz#0c1a63135398506a619f9d586c71b23ea831da63"
-  integrity sha512-AsUcsuRUthGCMZhPyk32hDd8TngepGaeFrL0OjpoTOycHeJ3GmA2gqQ15ymsNshji959SRGmuBmfBCWTSfEVGA==
-  dependencies:
-    wired-lib "^2.0.0"
-
-wired-elements@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/wired-elements/-/wired-elements-2.0.0.tgz#7ef0792f2bda3d25e834c769d1061b3d84b41969"
-  integrity sha512-+GzjdUiZvxKZSiKa7leFZNws0LU7Q2S1srjMunZTbqMW1bJcxo/hMBzv8mwkgsllqtPSTqFVc2RbXXmeCccZzg==
-  dependencies:
-    wired-button "^2.0.0"
-    wired-calendar "^2.0.0"
-    wired-card "^2.0.0"
-    wired-checkbox "^2.0.0"
-    wired-combo "^2.0.0"
-    wired-dialog "^2.0.0"
-    wired-divider "^2.0.0"
-    wired-fab "^2.0.0"
-    wired-icon-button "^2.0.0"
-    wired-image "^2.0.0"
-    wired-input "^2.0.0"
-    wired-item "^2.0.0"
-    wired-lib "^2.0.0"
-    wired-link "^2.0.0"
-    wired-listbox "^2.0.0"
-    wired-progress "^2.0.0"
-    wired-radio "^2.0.0"
-    wired-radio-group "^2.0.0"
-    wired-search-input "^2.0.0"
-    wired-slider "^2.0.0"
-    wired-spinner "^2.0.0"
-    wired-tab "^2.0.0"
-    wired-tabs "^2.0.0"
-    wired-textarea "^2.0.0"
-    wired-toggle "^2.0.0"
-    wired-video "^2.0.0"
-
-wired-fab@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/wired-fab/-/wired-fab-2.0.0.tgz#bda647f00a585a722f8b59f932e8d5975e7e580b"
-  integrity sha512-lAwn5IS0hKHFpxF4H+7Mnv7gPZ+ymbsMG1CBClQX835wnHBJZ0NPjFA8JBHwUGwGFu/LRTWJZTiZwREddrG5hw==
-  dependencies:
-    wired-lib "^2.0.0"
-
-wired-icon-button@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/wired-icon-button/-/wired-icon-button-2.0.0.tgz#07e39276dc0f04be7578076aaa4e6e4e4d730bcb"
-  integrity sha512-9ZyiLZDV5uHrb1Oi3EjR0+sa5hiSqLiqI2aqc/FI3N8geRae4ubUhOVAxCqPBKy8U0lqMHQp+1PHu4PvD2wyyw==
-  dependencies:
-    wired-lib "^2.0.0"
-
-wired-image@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/wired-image/-/wired-image-2.0.0.tgz#2439459715f690b66fc4d2e7639bb774e2d47cf0"
-  integrity sha512-87ZiEamHHcnkmqP1IsMf0L2MP9kYyB84sso8/6O3Z1zbS1ECLdHv3Kq3oKr74zuM8BTrv7UPiJAfbpnFPdBc9g==
-  dependencies:
-    wired-lib "^2.0.0"
-
-wired-input@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/wired-input/-/wired-input-2.0.0.tgz#3903736aefd4c3c5f6e224b22fd5f49dc61e377c"
-  integrity sha512-iNjtRFEJO4BUSQAn61EfNaPE3GmgiRL93BjM0wmLmyjCgwipu6M2wPriRqhZbiNnsGPe0r2tmhhdMyTHOmlWTQ==
-  dependencies:
-    wired-lib "^2.0.0"
-
-wired-item@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/wired-item/-/wired-item-2.0.0.tgz#9a3240cda6f9bf003e64934168e37fdc038e8802"
-  integrity sha512-ILL8oJuCU5gQMI9vMBRoW+ycqc/fFYnLBboPeExYjETUD/LaEMiDcDZpVGlNpJjwBu73hvfdiDBxN7jeDjZT5w==
-  dependencies:
-    wired-lib "^2.0.0"
-
-wired-lib@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/wired-lib/-/wired-lib-2.0.0.tgz#675995ffb9e75b172279ae4db38185ab5011157b"
-  integrity sha512-ro8aBzI0GE9h2/aTBU2Pfqbrxi7p+X5xIu2EgxSS/QoYK0QN9r0O5mFKeQOFRlYwn4RE5SdMgJFM/p9xK5XI3w==
-  dependencies:
-    lit-element "^2.2.1"
-    roughjs "^3.1.0"
-
-wired-link@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/wired-link/-/wired-link-2.0.0.tgz#080120aff0e168e556e5ec9e918ca04834143ef6"
-  integrity sha512-aLDUxvoF9cGZmIFwEvjDNOzZPb/gdcnBYOeX9Jm2dhqiUWJyMJBNwfIRgIu7A1SZZ9X/NekIZQeko6gcJHf9Tw==
-  dependencies:
-    wired-lib "^2.0.0"
-
-wired-listbox@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/wired-listbox/-/wired-listbox-2.0.0.tgz#cdaf7ef97d0497cb8ce383385516d6959420b8a1"
-  integrity sha512-VqSsI3VWmv28nkMvSe2YN9V+SWnbOyLN3crKqHUpjEV04ccX6H7w/AHQvYyEkDy+4p4IO78XVtjIwEI4zr4U9g==
-  dependencies:
-    wired-lib "^2.0.0"
-
-wired-progress@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/wired-progress/-/wired-progress-2.0.0.tgz#83227742fa70488150a7d793b36e921f2234192c"
-  integrity sha512-wpyCnteuiOwddzaUd7Z2YC45ecEbQ9PmcWASTDipiQudW8C26ynz8Ipiy/owpieQ3RCAo5IppG+sSNL2ykQuTA==
-  dependencies:
-    wired-lib "^2.0.0"
-
-wired-radio-group@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/wired-radio-group/-/wired-radio-group-2.0.0.tgz#d39f9aa5d260c7cb82b6ed635f1acd7ebd7e3c15"
-  integrity sha512-2HlbhSBHBbT2nbBYC5e8RHbhW8lPARCxiYqVbcIUdUuOfyP9+Ox6MfRIv1CQR0kjUDJQpFAIb2orUc/FhnyqOg==
-  dependencies:
-    wired-lib "^2.0.0"
-
-wired-radio@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/wired-radio/-/wired-radio-2.0.0.tgz#75f133c4c662bee7d0962276360de71c5ef3d68c"
-  integrity sha512-HOOqVv2ZujdO8eLic3Tm+FtBhxWmzAk44PbyUwjQPZ1kmS9XKnFtJLWxx75+rh42pXuz3SuZWAdSDGnG3WVyPw==
-  dependencies:
-    wired-lib "^2.0.0"
-
-wired-search-input@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/wired-search-input/-/wired-search-input-2.0.0.tgz#2656fc9cf493f5802ad5bdfdd24e1e7f32b3712c"
-  integrity sha512-ybhGraXIS0dvMD2O8+9DVp5+WjTVV86LUAnNm4p7ehKrld+9gQDVdwEtu1r6IeOk1J9hRCRSPeqwC9qXxyne8Q==
-  dependencies:
-    wired-lib "^2.0.0"
-
-wired-slider@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/wired-slider/-/wired-slider-2.0.0.tgz#7c24249c9544f494897a4be4e28fd375220ea689"
-  integrity sha512-MntrSsDjtPrOtJbX7Mo5dYaOwBo8rcb3NAyGTG3zE4O7nCx+pMz+g0NzXogkreMnaxIM969SDRUG+ksxxE/Rcg==
-  dependencies:
-    wired-lib "^2.0.0"
-
-wired-spinner@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/wired-spinner/-/wired-spinner-2.0.0.tgz#c630e74d098de7b473d7556438964d588c707ac4"
-  integrity sha512-mDFAO/hctTrQy4K9pd4jwBci3pT9+oRNxuaUQOIYfG53kdc7U/ZXKv2Oc93k4/xTAw34H9Gmo1m7ihqiHqDPKQ==
-  dependencies:
-    wired-lib "^2.0.0"
-
-wired-tab@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/wired-tab/-/wired-tab-2.0.0.tgz#a98c0f393ba17346afbf5c581708ffb304e81a12"
-  integrity sha512-gd0HLQIimhaRYvW5k3sYWr2lDB4vQusgBNyPylW0165JtOHXdbXC/hNHv1qnEB2NgJ3dsmjKXzdsh+41E5xbRg==
-  dependencies:
-    wired-item "^2.0.0"
-    wired-lib "^2.0.0"
-
-wired-tabs@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/wired-tabs/-/wired-tabs-2.0.0.tgz#e6f4faff1f3a4760b098b94462e7ae83be7bb544"
-  integrity sha512-+q7mBRNp93R8cSr2wiK5utE9hXH2M+98Xtv8bnyfB14zANI4CxC2PHbumk6u0lK/Q1R8M1TjhIbFlLGEXx8TkA==
-  dependencies:
-    wired-lib "^2.0.0"
-
-wired-textarea@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/wired-textarea/-/wired-textarea-2.0.0.tgz#785c16037869d54a508e4150f5dfe368c49430fb"
-  integrity sha512-cc63rjFKTYOmK/DCtO7fDLhOELiCYvSDVhkFwOfccOBu+bi6VOe1iHVVkzx7pNrmkofk00bWkGFw1PkoZ/GSKA==
-  dependencies:
-    wired-lib "^2.0.0"
-
-wired-toggle@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/wired-toggle/-/wired-toggle-2.0.0.tgz#02911fa968848ce4d224c448d136adf5e3436055"
-  integrity sha512-Cdpg3rksHc7h6mkgSipYQ4yh5xZJURfRZHq3rYq8H9ttZaJR7ng641Yrrof/BE9xaGgQZk+OVl1+FJZ3YRprlw==
-  dependencies:
-    wired-lib "^2.0.0"
-
-wired-video@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/wired-video/-/wired-video-2.0.0.tgz#7389720ac87ba280171859c2e0975a15c163cec4"
-  integrity sha512-85X8FEhlAOBvjgcRqRxZqP6JDSfVYSXT+ekc7/pUD09s3fUNlLldzdKVA8wkrXJwE3UIY/J/NfiBQXOxtOQWiA==
-  dependencies:
-    wired-icon-button "^2.0.0"
-    wired-lib "^2.0.0"
-    wired-progress "^2.0.0"
-    wired-slider "^2.0.0"
-
 word-wrap@~1.2.3:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/word-wrap/-/word-wrap-1.2.3.tgz#610636f6b1f703891bd34771ccb17fb93b47079c"
@@ -11058,11 +10824,6 @@ worker-rpc@^0.1.0:
   integrity sha512-P1WjMrUB3qgJNI9jfmpZ/htmBEjFh//6l/5y8SD9hg1Ef5zTTVVoRjTrTEzPrNBQvmhMxkoTsjOXN10GWU7aCg==
   dependencies:
     microevent.ts "~0.1.1"
-
-workly@^1.2.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/workly/-/workly-1.3.0.tgz#86cd453139732ef1540ed7f094e058a3e879ba43"
-  integrity sha512-eozpibnwnyvsWJEoADCfo3171Ncl4J/57PQnZN37eoVgQG7buf3KEpPNfewDKH4OXf3eAZaUAF57i4ko5zY9Cw==
 
 wrap-ansi@^2.0.0:
   version "2.1.0"

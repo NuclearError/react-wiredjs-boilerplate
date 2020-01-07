@@ -6,7 +6,10 @@ import Form from './Form';
 function App() {
 
   const [toDoList, setToDoList] = useState([
-    { text: "Plant Spring Bulbs" }
+    { 
+      text: "Plant Spring Bulbs",
+      isComplete: false,
+    }
   ]);
 
   const addNewItem = text => {
@@ -14,6 +17,17 @@ function App() {
     setToDoList(newList);
   };
 
+  const completeItem = index => {
+    const newList = [...toDoList];
+    newList[index].isCompleted = true;
+    setToDoList(newList);
+  };
+
+  const deleteItem = index => {
+    const newList = [...toDoList];
+    newList.splice(index, 1);
+    setToDoList(newList); 
+  }
 
   return (
     <section className="wrapper">
@@ -23,9 +37,13 @@ function App() {
       <div className="list">
         {toDoList.map((todo, index) => (
           <Item
+            className={todo.isCompleted ? "item item--completed" : "item"}
             key={index}
             index={index}
+            isCompleted={todo.isCompleted}
             todo={todo}
+            completeItem={completeItem}
+            deleteItem={deleteItem}
           />
         ))}
       </div>

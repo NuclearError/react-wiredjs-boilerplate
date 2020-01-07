@@ -30,3 +30,7 @@ code {
 .item:last-child {
   margin: 0;
 }
+.item--completed {
+  text-decoration: line-through;
+  color: #666;
+}
